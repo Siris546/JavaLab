@@ -1,19 +1,29 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package lab2d;
 
-/**
- *
- * @author user
- */
+import java.io.*;
+
 public class Lab2d {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        FileOutputStream out = null;
+
+        try {
+            out = new FileOutputStream("D:\\CollegeStuffs\\7thsemPracticals\\JavaLab\\output.txt");
+            String s = "Hello Academians Hello world";
+            byte b[] = s.getBytes();
+            out.write(b);
+        } 
+        catch (IOException ioe) {
+            System.out.println(ioe);
+        } 
+        finally{
+            try {
+                if (out != null) {
+                    out.close();
+                }
+            } catch (IOException e) {
+                System.out.println(e);
+            }
+        }
     }
 }
