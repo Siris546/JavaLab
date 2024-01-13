@@ -74,5 +74,4 @@ public class Lab2i {
         Lab2i popup = new Lab2i();
         Lab2i.createAndShowGUI();
     }
-    
 }
