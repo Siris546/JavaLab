@@ -34,63 +34,59 @@
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="111" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="1" attributes="0">
-                          <Component id="result" min="-2" pref="391" max="-2" attributes="0"/>
-                          <Group type="102" attributes="0">
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <Component id="digit00" min="-2" pref="68" max="-2" attributes="0"/>
-                                      <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="decimal" min="-2" pref="68" max="-2" attributes="0"/>
-                                      <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="digit0" min="-2" pref="68" max="-2" attributes="0"/>
-                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                      <Component id="divide" min="-2" pref="68" max="-2" attributes="0"/>
-                                  </Group>
-                                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="digit00" min="-2" pref="68" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="decimal" min="-2" pref="68" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="digit0" min="-2" pref="68" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="divide" min="-2" pref="68" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
                                       <Group type="103" groupAlignment="1" attributes="0">
-                                          <Group type="102" alignment="1" attributes="0">
-                                              <Group type="103" groupAlignment="1" attributes="0">
-                                                  <Component id="digit9" min="-2" pref="68" max="-2" attributes="0"/>
-                                                  <Component id="digit8" min="-2" pref="68" max="-2" attributes="0"/>
-                                              </Group>
-                                              <EmptySpace max="-2" attributes="0"/>
-                                              <Group type="103" groupAlignment="0" attributes="0">
-                                                  <Component id="digit5" min="-2" pref="68" max="-2" attributes="0"/>
-                                                  <Component id="digit6" min="-2" pref="68" max="-2" attributes="0"/>
-                                              </Group>
-                                          </Group>
-                                          <Group type="102" alignment="1" attributes="0">
-                                              <Component id="digit7" min="-2" pref="68" max="-2" attributes="0"/>
-                                              <EmptySpace max="-2" attributes="0"/>
-                                              <Component id="digit4" min="-2" pref="68" max="-2" attributes="0"/>
-                                          </Group>
+                                          <Component id="digit9" min="-2" pref="68" max="-2" attributes="0"/>
+                                          <Component id="digit8" min="-2" pref="68" max="-2" attributes="0"/>
                                       </Group>
                                       <EmptySpace max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="digit3" min="-2" pref="68" max="-2" attributes="0"/>
-                                          <Component id="digit2" min="-2" pref="68" max="-2" attributes="0"/>
-                                          <Component id="digit1" min="-2" pref="68" max="-2" attributes="0"/>
+                                          <Component id="digit5" min="-2" pref="68" max="-2" attributes="0"/>
+                                          <Component id="digit6" min="-2" pref="68" max="-2" attributes="0"/>
                                       </Group>
-                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="minus" min="-2" pref="68" max="-2" attributes="0"/>
-                                          <Component id="plus" min="-2" pref="68" max="-2" attributes="0"/>
-                                          <Component id="multiply" alignment="0" min="-2" pref="68" max="-2" attributes="0"/>
-                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="digit7" min="-2" pref="68" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="digit4" min="-2" pref="68" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
-                              <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="backspace" alignment="0" min="-2" pref="68" max="-2" attributes="0"/>
-                                  <Component id="reset" min="-2" pref="68" max="-2" attributes="0"/>
-                                  <Component id="equal" min="-2" pref="68" max="-2" attributes="0"/>
+                                  <Component id="digit3" min="-2" pref="68" max="-2" attributes="0"/>
+                                  <Component id="digit2" min="-2" pref="68" max="-2" attributes="0"/>
+                                  <Component id="digit1" min="-2" pref="68" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="minus" min="-2" pref="68" max="-2" attributes="0"/>
+                                  <Component id="plus" min="-2" pref="68" max="-2" attributes="0"/>
+                                  <Component id="multiply" alignment="0" min="-2" pref="68" max="-2" attributes="0"/>
                               </Group>
                           </Group>
+                          <Component id="result" alignment="0" min="-2" pref="391" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="backspace" alignment="0" min="-2" pref="68" max="-2" attributes="0"/>
+                          <Component id="reset" min="-2" pref="68" max="-2" attributes="0"/>
+                          <Component id="equal" min="-2" pref="68" max="-2" attributes="0"/>
                       </Group>
                   </Group>
               </Group>
-              <EmptySpace min="0" pref="122" max="32767" attributes="0"/>
+              <EmptySpace min="0" pref="52" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -159,7 +155,7 @@
   <SubComponents>
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
-        <Property name="text" type="java.lang.String" value="My Calculator"/>
+        <Property name="text" type="java.lang.String" value="Calculator"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="result">
